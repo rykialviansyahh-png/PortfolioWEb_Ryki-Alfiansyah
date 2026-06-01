@@ -437,3 +437,11 @@ html{
 .skill-card{
     border: 1px solid rgba(255,255,255,0.08);
 }
+
+.social-icons img{
+    transition: 0.3s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.1);
+}

@@ -57,6 +57,10 @@ nav a{
     font-size: 18px;
 }
 
+nav a:hover{
+    color: #60a5fa;
+}
+
 .hero{
     min-height: 100vh;
 

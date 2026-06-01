@@ -411,3 +411,23 @@ nav a:hover{
 
     font-size: 18px;
 }
+
+.skill-card{
+    width: 280px;
+
+    background: rgba(15,23,42,0.55);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.skill-card:hover{
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}

@@ -377,3 +377,27 @@ nav a{
 
     line-height: 1.8;
 }
+
+.social-icons{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-bottom: 50px;
+}
+
+.social-icons img{
+    width: 55px;
+
+    height: 55px;
+
+    object-fit: contain;
+}
+
+.copyright{
+    color: #94a3b8;
+
+    font-size: 18px;
+}

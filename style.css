@@ -82,3 +82,25 @@ nav a{
 
     box-shadow: 0 0 30px rgba(255,255,255,0.1);
 }
+
+.hero-text{
+    max-width: 600px;
+}
+
+.hero-text h1{
+    color: white;
+
+    font-size: 75px;
+
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    color: #cbd5e1;
+
+    font-size: 22px;
+
+    line-height: 1.8;
+
+    margin-top: 20px;
+}

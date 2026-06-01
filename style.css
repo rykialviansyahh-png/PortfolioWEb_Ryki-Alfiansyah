@@ -311,3 +311,23 @@ nav a{
 
     line-height: 1.7;
 }
+
+.contact{
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 150px 80px 80px;
+}
+
+.contact-content{
+    width: 100%;
+
+    max-width: 1100px;
+
+    text-align: center;
+}

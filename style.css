@@ -35,6 +35,8 @@ header{
     background: rgba(15, 23, 42, 0.7);
 
     border-bottom: 1px solid rgba(255,255,255,0.08);
+
+    z-index: 1000;
 }
 
 .logo{
@@ -234,7 +236,10 @@ nav a{
 .skill{
     min-height: 100vh;
 
-    padding: 120px 80px;
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
 }
 
 .skill h1{
@@ -257,6 +262,8 @@ nav a{
     max-width: 800px;
 
     margin: auto;
+
+    margin-bottom: 50px;
 }
 
 .skill-container{
@@ -267,8 +274,6 @@ nav a{
     justify-content: center;
 
     gap: 25px;
-
-    margin-top: 50px;
 }
 
 .skill-card{
@@ -281,4 +286,28 @@ nav a{
     padding: 20px;
 
     text-align: center;
+}
+
+.skill-card img{
+    width: 70px;
+
+    height: 70px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    margin-bottom: 15px;
+}
+
+.skill-card h3{
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.skill-card p{
+    color: #cbd5e1;
+
+    line-height: 1.7;
 }

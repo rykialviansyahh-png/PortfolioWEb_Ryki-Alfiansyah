@@ -270,3 +270,15 @@ nav a{
 
     margin-top: 50px;
 }
+
+.skill-card{
+    width: 280px;
+
+    background: rgba(15,23,42,0.55);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    text-align: center;
+}
